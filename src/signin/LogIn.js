@@ -15,8 +15,10 @@ const LogIn = () => {
     })
 
     console.log(inputValue);
+    
 
     const getData = (e) => {
+        console.log(e);
 
         const { value, name } = e.target;
 
